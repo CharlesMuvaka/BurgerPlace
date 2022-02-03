@@ -3,3 +3,8 @@
     width: 100%;
     display: flex;
 }
+.cont-l{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
