@@ -3,8 +3,11 @@
     width: 100%;
     display: flex;
 }
-.cont-l{
+.cont-l, .contr-r{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+.cont-r{
+    background-color: yellow;
 }
