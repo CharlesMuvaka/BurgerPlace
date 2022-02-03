@@ -150,3 +150,7 @@ nav a {
     justify-content: center;
     align-items: center;
 }
+
+.topCont span {
+    color: yellow;
+}
