@@ -17,7 +17,7 @@
 }
 
 .cont-r {
-    background-color: yellow;
+    background-color: #F6B400;
 }
 
 .cont-l div:first-child {
@@ -38,7 +38,7 @@
 }
 
 #burger span {
-    color: yellow;
+    color: #F6B400;
 }
 
 .linkt {
@@ -77,8 +77,9 @@ nav a {
     margin-top: 90px;
     margin-left: 50px;
     border-radius: 20px 20px 0px 20px;
-    background-color: yellow;
-    border: 1px solid yellow;
+    background-color: #F6B400;
+    color: white;
+    border: 1px solid #F6B400;
 }
 
 .wrapper {
@@ -137,20 +138,18 @@ nav a {
 }
 
 .banner {
-    height: 500px;
-    width: 100%0%;
-    background-color: red;
+    height: 1000px;
+    width: 100%;
 }
 
 .topCont {
     height: 100px;
     width: 100%;
-    background-color: brown;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .topCont span {
-    color: yellow;
+    color: #F6B400;
 }
