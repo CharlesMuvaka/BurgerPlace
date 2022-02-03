@@ -94,6 +94,15 @@ nav a {
     height: 250px;
     width: 30%;
     background-color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.wrap1 p {
+    font-size: 15px;
+    text-align: center;
 }
 
 .wrap2 {
