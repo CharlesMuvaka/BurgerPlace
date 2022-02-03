@@ -3,7 +3,7 @@
     width: 100%;
     display: flex;
 }
-.cont-l, .contr-r{
+.cont-l, .cont-r{
     height: inherit;
     width: 50%;
     display: flex;
@@ -13,9 +13,13 @@
 .cont-r{
     background-color: yellow;
 }
+.cont-l{
+    background-color: green;
+}
 .cont-l div{
     height: 100px;
-    width: inherit;
+    width: 100%;
     display: flex;
     align-items: center;
+    background-color: red;
 }
