@@ -13,3 +13,9 @@
 .cont-r{
     background-color: yellow;
 }
+.cont-l div{
+    height: 100px;
+    width: inherit;
+    display: flex;
+    align-items: center;
+}
