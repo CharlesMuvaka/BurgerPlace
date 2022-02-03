@@ -1,63 +1,68 @@
-    .container {
-        height: 600px;
-        width: 100%;
-        display: flex;
-    }
-    
-    .cont-l,
-    .cont-r {
-        height: inherit;
-        width: 50%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-    
-    .cont-r {
-        background-color: yellow;
-    }
-    
-    .cont-l {
-        background-color: green;
-    }
-    
-    .cont-l div {
-        height: 60px;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        background-color: red;
-    }
-    
-    .cont-l img {
-        height: 40px;
-    }
-    
-    .cont-l h1 {
-        height: 40px;
-    }
-    
-    .cont-l h1 span {
-        color: yellow;
-    }
-    
-    .cont-r div {
-        height: 60px;
-        width: 100%;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        background-color: purple;
-    }
-    
-    nav a {
-        text-decoration: none;
-        padding: 20px;
-        font-size: bold;
-        color: white;
-    }
-    
-    .cont-r img {
-        height: 40px;
-        width: 40px;
-    }
+* {
+    font-family: poppins;
+}
+
+.container {
+    height: 600px;
+    width: 100%;
+    display: flex;
+}
+
+.cont-l,
+.cont-r {
+    height: inherit;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cont-r {
+    background-color: yellow;
+}
+
+.cont-l {
+    background-color: green;
+}
+
+.cont-l div {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: red;
+}
+
+.cont-l img {
+    height: 40px;
+}
+
+.cont-l h1 {
+    font-family: lobster;
+    font-size: 40px;
+}
+
+.cont-l h1 span {
+    color: yellow;
+}
+
+.cont-r div {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: purple;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    font-size: bold;
+    color: black;
+}
+
+.cont-r img {
+    height: 40px;
+    width: 40px;
+}
