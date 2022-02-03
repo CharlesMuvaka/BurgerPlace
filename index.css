@@ -85,4 +85,19 @@ nav a {
     height: 500px;
     width: 100%;
     background-color: red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.wrap1 {
+    height: 250px;
+    width: 30%;
+    background-color: green;
+}
+
+.wrap2 {
+    height: 300px;
+    width: 30%;
+    background-color: yellow;
 }
