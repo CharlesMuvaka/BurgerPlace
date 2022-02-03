@@ -22,15 +22,27 @@
     }
     
     .cont-l div {
-        height: 100px;
+        height: 60px;
         width: 100%;
         display: flex;
         align-items: center;
         background-color: red;
     }
     
+    .cont-l img {
+        height: 40px;
+    }
+    
+    .cont-l h1 {
+        height: 40px;
+    }
+    
+    .cont-l h1 span {
+        color: yellow;
+    }
+    
     .cont-r div {
-        height: 100px;
+        height: 60px;
         width: 100%;
         display: flex;
         justify-content: space-around;
@@ -43,4 +55,9 @@
         padding: 20px;
         font-size: bold;
         color: white;
+    }
+    
+    .cont-r img {
+        height: 40px;
+        width: 40px;
     }
