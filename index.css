@@ -135,3 +135,18 @@ nav a {
     height: 50px;
     width: 50px;
 }
+
+.banner {
+    height: 500px;
+    width: 100%0%;
+    background-color: red;
+}
+
+.topCont {
+    height: 100px;
+    width: 100%;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
